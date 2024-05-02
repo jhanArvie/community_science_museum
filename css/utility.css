@@ -1,0 +1,82 @@
+/* Flexbox */
+.flex {display: flex;}
+.flex-row {flex-direction: row;}
+.flex-col {flex-direction: column;}
+.justify-center {justify-content: center;}
+.justify-start {justify-content: start;}
+.justify-end {justify-content: end;}
+.align-center {align-items: center;}
+.space-around {justify-content: space-around;}
+.space-between {justify-content: space-between;}
+
+/* gap */
+.gap-1 {gap: 1rem;}
+.gap-2 {gap: 2rem;}
+.gap-3 {gap: 3rem;}
+.gap-5 {gap: 5rem;}
+
+.block {display: block;}
+.hidden {display: none;}
+
+/* position */
+.relative {position: relative;}
+.absolute {position: absolute;}
+
+/* text align */
+.t-align-right {text-align: right;}
+.t-align-left {text-align: left;}
+.t-align-center {text-align: center;}
+
+/* Padding */
+.pad-0 {padding: 0;}
+.pad-1 {padding: 1rem;}
+.pad-2 {padding: 2rem;}
+.pad-3 {padding: 3rem;}
+.pad-4 {padding: 4rem;}
+
+/* Margin */
+.m-1 {margin: 1rem;}
+.m-2 {margin: 2rem;}
+.m-3 {margin: 3rem;}
+.m-4 {margin: 4rem;}
+.m-5 {margin: 5rem;}
+
+/* color */
+.clr-red-100 {color: #DE1429;}
+.clr-red-200 {color: #ED384B;}
+.clr-yellow {color: #FBC50A;}
+.clr-blue-100 {color: #16A2E1;}
+.clr-blue-200 {color: #6FCFFB;}
+
+/* background color */
+.bg-clr-red-100 {background-color: #DE1429;}
+.bg-clr-red-200 {background-color: #ED384B;}
+.bg-clr-orange {background-color: #FF3000;}
+.bg-clr-yellow {background-color: #FBC50A;}
+.bg-clr-blue-100 {background-color: #16A2E1;}
+.bg-clr-blue-200 {background-color: #6FCFFB;}
+
+/* text decoration */
+.t-decor-underline {text-decoration: underline;}
+.hover-underline:hover {text-decoration: underline;}
+
+/* Font Size */
+.fs-16 {font-size: 1rem;}
+.fs-18 {font-size: 1.125rem;}
+.fs-20 {font-size: 1.25rem;}
+.fs-25 {font-size: 1.563rem;}
+.fs-31 {font-size: 1.95rem;}
+.fs-39 {font-size: 2.44rem;}
+.fs-48 {font-size: 3rem;}
+.fs-61 {font-size: 3.82rem;}
+.fs-96 {font-size: 6rem;}
+
+/* font weight */
+.fw-4 {font-weight: 400;}
+.fw-5 { font-weight: 500;}
+.fw-6 {font-weight: 600;}
+.fw-7 {font-weight: 700;}
+.fw-8 {font-weight: 800;}
+.fw-9 {font-weight: 900;}
+
+.max-w-content {max-width: fit-content;}
