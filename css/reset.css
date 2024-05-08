@@ -10,6 +10,7 @@ body {
     padding: 0;
     min-height: 100vh;
     color: #fff;
+    background-color: #F2F2F2;
   }
 
   ul {
@@ -23,4 +24,13 @@ body {
 
   img {
     max-width: 100%;
+  }
+
+
+  section,
+  header,
+  footer,
+  article {
+    max-width: 1600px;
+    margin: auto;
   }

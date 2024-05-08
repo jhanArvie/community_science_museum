@@ -13,7 +13,299 @@
     We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
     "
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/global.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="flex flex-row bg-clr-white space-between align-center">
+      <a href="index.html"
+        ><img class="logo" src="./assets/figma-imgs/logo.png" alt="Logo"
+      /></a>
+      <nav
+        class="nav fixed flex justify-center align-center bg-clr-dark gap-1-m gap-2-l"
+      >
+        <a class="hover-underline fs-16 fs-20-m fs-25-l fw-6" href="visit.html"
+          >Visit Us</a
+        >
+        <div class="search-con flex align-center">
+          <input type="search" class="search" placeholder="" />
+          <label class="search-label" for="search"
+            ><img
+              class="cur-pointer search-icon"
+              src="./assets/icons/search.png"
+              alt="search"
+          /></label>
+        </div>
+
+        <button id="openNav" class="burger-con cur-pointer pad-0 m-0">
+          <img
+            class="burger"
+            src="assets/icons/hamburger_menu.png"
+            alt="burger menu"
+          />
+        </button>
+        <dialog id="dialogNav" class="nav-dia bg-clr-dark">
+          <div class="dialog-container flex justify-center fs-20-m fs-25-l">
+            <ul class="">
+              <li><a class="hover-underline" href="index.html">Home</a></li>
+              <li>
+                <a class="hover-underline" href="explore.html">Explore</a>
+              </li>
+              <li>
+                <a class="hover-underline" href="exhibition.html"
+                  >Exhibition Space</a
+                >
+              </li>
+              <li>
+                <a class="hover-underline" href="involve.html">Get Involve</a>
+              </li>
+              <li>
+                <a class="hover-underline" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </dialog>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <figure class="home-hero m-0 flex justify-center align-center">
+          <div class="hero-intro t-align-center pad-1">
+            <h1
+              class="clr-black fs-25 fs-39-l spacing-2-5 spacing-6-1-m spacing-6-1-l m-0"
+            >
+              "Explore together”
+            </h1>
+            <p class="clr-black spacing-2-m spacing-2-l fs-20-l">
+              Come join us at the Community Science Museum where we’re committed
+              to making science accessible to all.
+            </p>
+          </div>
+        </figure>
+      </section>
+      <article>
+        <div
+          class="flex flex-col justify-center gap-1 clr-black flex-row-m space-around-m flex-row-l space-around-l"
+        >
+          <div class="t-align-center flex-m flex-col-m">
+            <h5 class="fs-16 fs-20-m fs-25-l fw-4 m-1">Today: Tuesday</h5>
+            <span class="open-time clr-white pad-05 pad-1-m fs-20-l"
+              >Open (10:00 - 1600)</span
+            >
+          </div>
+          <div class="t-align-center">
+            <h5 class="fs-16 fs-20-m fs-25-l fw-4 m-1">Special Events:</h5>
+            <div
+              class="flex flex-col t-decor-underline flex-l flex-row-l gap-1-l fs-20-l"
+            >
+              <p class="m-0">Visiting Professor of Aeronautics</p>
+
+              <p class="m-0">Night In the Museum</p>
+              <p class="m-0">Energetica Exhibition on Loan</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <section>
+        <div class="container">
+          <a href="explore.html">
+            <h2
+              class="explore-title hover-underline clr-black fs-20 fs-25-m fs-39-l spacing-2-5 pad-1 bg-clr-yellow"
+            >
+              Explore
+            </h2>
+          </a>
+        </div>
+        <div class="exp-container flex justify-center align-center gap-05">
+          <a href="explore.html"
+            ><div class="explore-content relative">
+              <img src="./assets/figma-imgs/kid.png" alt="Kid Reading" />
+              <div class="explore-text absolute">
+                <h6 class="m-05">Kids</h6>
+                <p class="fs-25-l m-05 hidden">
+                  Are you a young person looking to learn more about science?
+                </p>
+              </div>
+            </div></a
+          >
+          <a href="explore.html"
+            ><div class="explore-content relative">
+              <img src="./assets/figma-imgs/teacher.png" alt="Teacher" />
+              <div class="explore-text absolute">
+                <h6 class="m-05">Teachers</h6>
+                <p class="m-05 fs-25-l hidden">
+                  We want to work with schools to create places of learning and
+                  exploring.
+                </p>
+              </div>
+            </div></a
+          >
+          <a href="explore.html"
+            ><div class="explore-content relative">
+              <img src="./assets/figma-imgs/lab.png" alt="Lab" />
+              <div class="explore-text absolute">
+                <h6 class="m-05">Researchers</h6>
+                <p class="m-05 fs-25-l hidden">
+                  Our museum offers various ways for you to use our resources
+                  and contribute towards them.
+                </p>
+              </div>
+            </div></a
+          >
+          <a href="explore.html">
+            <div class="explore-content relative">
+              <img src="./assets/figma-imgs/atom.png" alt="Atom" />
+              <div class="explore-text absolute">
+                <h6 class="m-05">Everyone</h6>
+                <p class="m-05 fs-25-l hidden">
+                  Open for everyone with a curious science mind.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2
+            class="t-align-center fs-20 fs-25-m fs-39-l spacing-2-5 pad-1 bg-clr-red-200 m-0"
+          >
+            Special Events and Exhibitions
+          </h2>
+        </div>
+        <div
+          class="events bg-clr-dark flex flex-col justify-center align-center flex-row-l align-start-l gap-1"
+        >
+          <div
+            class="events-content flex flex-col justify-center align-center t-align-center"
+          >
+            <img
+              src="./assets/figma-imgs/astronaut.png"
+              alt="Space Exploration"
+            />
+            <h6>Visiting Professor of Aeronautics</h6>
+            <p>
+              It is our pleasure to announce that Prof Sheila Widnall from the
+              Massachusetts Institute of Technology will be delivering 3
+              lectures on the development of aeronautics and where the future
+              lies in this exciting ‘space’.
+            </p>
+          </div>
+          <div
+            class="test flex flex-col justify-center align-center t-align-center"
+          >
+            <img src="./assets/figma-imgs/night.png" alt="Museum Night" />
+            <h6>Night in the Museum</h6>
+            <p>
+              Get your family together for an exciting night in the museum as
+              you sleep over beside dinosaurs and science displays. Bring your
+              own sleeping bag and get ready to rough it as we go exploring the
+              wonders of science.
+            </p>
+          </div>
+          <div
+            class="test flex flex-col justify-center align-center t-align-center"
+          >
+            <img src="./assets/figma-imgs/night.png" alt="Energy" />
+            <h6>Energetica Exhibition on Loan</h6>
+            <p>
+              On loan from the NEMO Science Museum in Amsterdam, the Energetica
+              exhibition is coming to the Community Science Museum. It’s a
+              series of installations that allow visitors to experience the
+              power of the elements as we harness them. From solar energy
+              powering lighting, to ‘Wind Island’ that shows how turbines are
+              able to use and control wind to create power.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2
+            class="fs-20 fs-25-m fs-39-l spacing-2-5 clr-black pad-2 bg-clr-white m-0"
+          >
+            Exhibition Spaces
+          </h2>
+        </div>
+        <a href="exhibition.html"
+          ><div class="exhibit-cosmology">
+            <img src="./assets/imgs/cosmology-min.jpg" alt="universe" />
+            <h6>Cosmology</h6>
+          </div></a
+        >
+
+        <div class="exhibit-wrapper flex justify-center align-center gap-05">
+          <a href="exhibition.html">
+            <div class="exhibit-4">
+              <img src="./assets/figma-imgs/evolution.png" alt="Evolution" />
+              <h6>Evolution</h6>
+            </div></a
+          >
+          <a href="exhibition.html"
+            ><div class="exhibit-4">
+              <img src="./assets/figma-imgs/biology.png" alt="biology" />
+              <h6>Biology</h6>
+            </div></a
+          >
+          <a href="exhibition.html"
+            ><div class="exhibit-4">
+              <img src="./assets/figma-imgs/ai.png" alt="Robotics" />
+              <h6>Robotics</h6>
+            </div></a
+          >
+          <a href="exhibition.html"
+            ><div class="exhibit-4">
+              <img src="./assets/figma-imgs/ecology.png" alt="Ecology" />
+              <h6>Ecology</h6>
+            </div></a
+          >
+        </div>
+      </section>
+      <section class="involve flex flex-col flex-row-m">
+        <div class="text fw-6 t-align-center flex-l space-around-l">
+          <div>
+            <p class="fs-20 fs-39-l m-3-l t-align-left-l">
+              Get involve with our team through
+            </p>
+          </div>
+          <div>
+            <div class="flex flex-col m-3-l">
+              <span>Donations</span>
+              <span>Volunteer</span>
+              <span>Internships</span>
+            </div>
+            <div class="m-2">
+              <a
+                class="button-involve fw-7 spacing-2 bg-clr-blue-100"
+                href="involve.html"
+                >Get Involve</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <script>
+    const dialogElement =
+      document.querySelector(
+        "#dialogNav"
+      ); /* wrote as variable to have less typing */
+    document.querySelector("#openNav").addEventListener("click", () => {
+      dialogElement.showModal();
+    });
+    dialogElement.addEventListener("click", () => {
+      dialogElement.close();
+    });
+    dialogElement.addEventListener("scroll", () => {
+      dialogElement.close();
+    });
+  </script>
 </html>

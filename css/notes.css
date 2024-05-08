@@ -1,0 +1,44 @@
+header {
+    width: 100%;
+    height: 100px;
+}
+
+
+.nav {
+    width: 500px;
+    height: 60px;
+    right: 0px;
+}
+
+.logo {
+   width: 50%;
+    margin-left: 2rem;
+}
+
+.burger {
+    background-color: transparent;
+    border: none;
+}
+
+.search-icon {
+    width: 75%;
+}
+
+.search {
+    width: 150px;
+    color: #fff;
+    background-color: transparent;
+    border: none; /* Remove any existing borders */
+    border-bottom: 2px solid #fff; /* Add a border only to the bottom */
+    outline: none; /* Remove the default focus outline */
+}
+
+#dialogNav {
+    width: 500px;
+    margin-right: 0px;
+    margin-top: 81px;
+    .dialog-container {
+       position: relative;
+       right: 0px;
+    }
+}
