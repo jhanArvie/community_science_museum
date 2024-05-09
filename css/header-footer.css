@@ -1,19 +1,39 @@
 header {
     width: 100%;
     height: 94px;
+    margin: auto;
+   /*  max-width: 1600px; */
 }
 
+.header-container {
+    position: relative;
+    height: auto;
+    margin: auto;
+    position: relative;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.floating-nav-wrapper {
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    z-index: 1000;
+    pointer-events: none;
+}
 
 .nav {
-    width: 250px;
+    width: 230px;
     height: 46px;
-    right: 0px;
     z-index: 100;
-    
+    pointer-events: all;
 }
 
 
-.logo {
+.logo { 
    width: 40%;
     
 }
@@ -45,9 +65,12 @@ header {
     outline: none; /* Remove the default focus outline */
 }
 
+
+
 #dialogNav {
+    max-width: 1600px;
     width: 280px;
-    margin-right: 0px;
+    margin-right: 0 ;
     margin-top: 70px;
     border: none;
     .dialog-container {
@@ -55,10 +78,73 @@ header {
        right: 0px;
     }
 }
+
+
 #dialogNav::backdrop {
     background-color: transparent;
 }
 
+
+
+/* Footer */
+footer {
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+    .footer-contents {
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .footer-contents > div {
+            
+            margin: 2rem 2rem 0 10%;
+        }
+        .footer-logo {
+            margin-top: 1rem;
+            width: 136px;
+            height: 82px;
+           }
+        h6 {
+            font-size: 1.25rem;
+            margin: 1rem 0;
+           } 
+        p {
+            margin: .5rem 0;
+           }
+        .email {
+            border-radius: 5px;
+            width: 230px;
+            height: 25px;
+            display: block;
+        }
+        .sign-up {
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 5px;
+            background-color: #000;
+            width: 230px;
+            height: 25px;
+            display: block;
+        }
+
+        .social-media {
+        .icons {
+            padding: 0;
+            margin: 0;
+        }
+            ul li img {
+                width: 30px;
+            }
+        }
+        
+} 
+
+.terms {
+    a {
+       display: block;
+      padding: 1rem;
+       margin: auto;
+    }
+}
 
 
 
@@ -95,8 +181,8 @@ header {
     
 
 
-/* Medium Screen */
-@media only screen and (min-width: 980px) {
+/* Large Screen*/
+@media only screen and (min-width: 980px){
         header {
             height: 115px;
         }
@@ -131,3 +217,11 @@ header {
         }
 }
     
+
+
+@media screen  and (min-width: 1600px){
+    #dialogNav {
+        margin-right:calc((99vw - 1600px)/2);
+        margin-top: 90px;
+    }
+}

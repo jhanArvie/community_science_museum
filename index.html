@@ -22,56 +22,70 @@
     <link rel="stylesheet" href="./css/global.css" />
   </head>
   <body>
-    <header class="flex flex-row bg-clr-white space-between align-center">
-      <a href="index.html"
-        ><img class="logo" src="./assets/figma-imgs/logo.png" alt="Logo"
-      /></a>
-      <nav
-        class="nav fixed flex justify-center align-center bg-clr-dark gap-1-m gap-2-l"
-      >
-        <a class="hover-underline fs-16 fs-20-m fs-25-l fw-6" href="visit.html"
-          >Visit Us</a
-        >
-        <div class="search-con flex align-center">
-          <input type="search" class="search" placeholder="" />
-          <label class="search-label" for="search"
-            ><img
-              class="cur-pointer search-icon"
-              src="./assets/icons/search.png"
-              alt="search"
-          /></label>
-        </div>
+    <div class="header-container">
+      <header class="flex flex-row bg-clr-white space-between align-center">
+        <a href="index.html"
+          ><img class="logo" src="./assets/figma-imgs/logo.png" alt="Logo"
+        /></a>
+        <div class="floating-nav-wrapper fixed">
+          <nav
+            class="nav flex justify-center align-center bg-clr-dark gap-1-m gap-2-l"
+          >
+            <a
+              class="hover-underline fs-16 fs-20-m fs-25-l fw-6"
+              href="visit.html"
+              >Visit Us</a
+            >
+            <div class="search-con flex align-center">
+              <input type="search" class="search" placeholder="" />
+              <label class="search-label" for="search"
+                ><img
+                  class="cur-pointer search-icon"
+                  src="./assets/icons/search.png"
+                  alt="search"
+              /></label>
+            </div>
 
-        <button id="openNav" class="burger-con cur-pointer pad-0 m-0">
-          <img
-            class="burger"
-            src="assets/icons/hamburger_menu.png"
-            alt="burger menu"
-          />
-        </button>
-        <dialog id="dialogNav" class="nav-dia bg-clr-dark">
-          <div class="dialog-container flex justify-center fs-20-m fs-25-l">
-            <ul class="">
-              <li><a class="hover-underline" href="index.html">Home</a></li>
-              <li>
-                <a class="hover-underline" href="explore.html">Explore</a>
-              </li>
-              <li>
-                <a class="hover-underline" href="exhibition.html"
-                  >Exhibition Space</a
-                >
-              </li>
-              <li>
-                <a class="hover-underline" href="involve.html">Get Involve</a>
-              </li>
-              <li>
-                <a class="hover-underline" href="contact.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </dialog>
-      </nav>
-    </header>
+            <button id="openNav" class="burger-con cur-pointer pad-0 m-0">
+              <img
+                class="burger"
+                src="assets/icons/hamburger_menu.png"
+                alt="burger menu"
+              />
+            </button>
+
+            <dialog id="dialogNav" class="nav-dia bg-clr-dark">
+              <div class="dialog-container flex justify-center fs-20-m fs-25-l">
+                <ul class="">
+                  <li>
+                    <a class="hover-underline" href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a class="hover-underline" href="explore.html">Explore</a>
+                  </li>
+                  <li>
+                    <a class="hover-underline" href="exhibition.html"
+                      >Exhibition Space</a
+                    >
+                  </li>
+                  <li>
+                    <a class="hover-underline" href="involve.html"
+                      >Get Involve</a
+                    >
+                  </li>
+                  <li>
+                    <a class="hover-underline" href="contact.html"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </dialog>
+          </nav>
+        </div>
+      </header>
+    </div>
+
     <main>
       <section>
         <figure class="home-hero m-0 flex justify-center align-center">
@@ -271,7 +285,7 @@
         <div class="text fw-6 t-align-center flex-l space-around-l">
           <div>
             <p class="fs-20 fs-39-l m-3-l t-align-left-l">
-              Get involve with our team through
+              GET INVOLVE WITH OUR TEAM THROUGH...
             </p>
           </div>
           <div>
@@ -291,6 +305,77 @@
         </div>
       </section>
     </main>
+    <footer class="bg-clr-dark">
+      <div class="footer-contents">
+        <div>
+          <div>
+            <a href="index.html"
+              ><img
+                class="footer-logo bg-clr-white"
+                src="/assets/figma-imgs/logo.png"
+                alt="logo"
+            /></a>
+          </div>
+          <div>
+            <a href="visit.html"
+              ><h6>Hours</h6>
+              <p>Mon: Closed</p>
+              <p>Tues: 10:00 – 16:00</p>
+              <p>Wednes: 10:00 – 16:00</p>
+              <p>Thurs: 10:00 – 16:00</p>
+              <p>Fri: 10:00 – 19:00</p>
+              <p>Satur: 9:00 – 16:00</p>
+              <p>Sun: 9:00 – 13:00</p></a
+            >
+          </div>
+        </div>
+        <div>
+          <a href="visit.html"
+            ><div>
+              <h6>Address</h6>
+              <p>Maridalsveien 1000 Oslo</p>
+            </div></a
+          >
+          <a href="visit.html"
+            ><div>
+              <h6>Contact</h6>
+              <p>Phone: +47 123 12 312</p>
+              <p>Email: communityscience@gmail.com</p>
+            </div>
+          </a>
+          <a href="involve.html"
+            ><div>
+              <h6>Get Involved</h6>
+              <p>Donations</p>
+              <p>Volunteer program</p>
+              <p>Internship program</p>
+            </div></a
+          >
+        </div>
+        <div class="">
+          <div>
+            <h6>Get our latest news and updates</h6>
+            <input class="email" type="email" placeholder="Email" />
+            <a class="sign-up" href="#">Sign Up</a>
+          </div>
+          <div class="social-media">
+            <h6>Follow us through:</h6>
+            <ul class="icons flex">
+              <li>
+                <img src="./assets/icons/fb'.png" alt="Facebook" />
+              </li>
+              <li><img src="./assets/icons/ins.png" alt="Instagram" /></li>
+              <li><img src="./assets/icons/x.png" alt="twitter" /></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <article class="terms t-align-center">
+      <a class="bg-clr-red-100" href="terms.html"
+        >Privacy Policy & Terms and conditions</a
+      >
+    </article>
   </body>
 
   <script>
