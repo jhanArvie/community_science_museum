@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coomunity Science Museum</title>
+    <meta
+      name="description"
+      content="“Explore together”
+    Come join us at the Community Science Museum where we’re committed to making science accessible to all.
+    Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.
+    The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
+    We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
+    "
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <header class="flex flex-row bg-clr-white space-between align-center">
+        <a href="index.html"
+          ><img class="logo" src="./assets/figma-imgs/logo.png" alt="Logo"
+        /></a>
+        <div class="floating-nav-wrapper sticky">
+          <nav
+            class="nav flex justify-center align-center bg-clr-dark gap-1-m gap-2-l"
+          >
+            <a
+              class="hover-underline fs-16 fs-20-m fs-25-l fw-6"
+              href="visit.html"
+              >Visit Us</a
+            >
+            <div class="search-con flex align-center">
+              <input type="search" class="search" placeholder="" />
+              <label class="search-label" for="search"
+                ><img
+                  class="cur-pointer search-icon"
+                  src="./assets/icons/search.png"
+                  alt="search"
+              /></label>
+            </div>
+
+            <button id="openNav" class="burger-con cur-pointer pad-0 m-0">
+              <img
+                class="burger"
+                src="assets/icons/hamburger_menu.png"
+                alt="burger menu"
+              />
+            </button>
+
+            <dialog id="dialogNav" class="nav-dia bg-clr-dark">
+              <div class="dialog-container flex justify-center fs-20-m fs-25-l">
+                <ul class="">
+                  <li>
+                    <a class="hover-underline" href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a class="hover-underline" href="explore.html">Explore</a>
+                  </li>
+                  <li>
+                    <a class="hover-underline" href="exhibition.html"
+                      >Exhibition Space</a
+                    >
+                  </li>
+                  <li>
+                    <a class="hover-underline" href="involve.html"
+                      >Get Involve</a
+                    >
+                  </li>
+                  <li>
+                    <a class="hover-underline" href="contact.html"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </dialog>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <main>
+      <section>
+        <figure class="exhibition-hero">
+          <h1>Exhibition Spaces</h1>
+        </figure>
+        <div class="book-now flex align-center space-around bg-clr-yellow">
+          <h6 class="clr-black">PLAN YOUR VISIT</h6>
+          <a class="bg-clr-dark" href="contact.html">Book Now</a>
+        </div>
+      </section>
+
+      <section class="flex flex-col align-center justify-center">
+        <div
+          class="exhibit-content flex flex-col flex-row-l align-center relative"
+        >
+          <div class="exh-img relative">
+            <img src="./assets/figma-imgs/ex-cosmology.png" alt="Cosmology" />
+            <h2 class="absolute">Cosmology</h2>
+          </div>
+          <div class="exh-text clr-black t-align-center t-align-left-l">
+            <h5 class="fs-16">Explore the wonders of our cosmos.</h5>
+            <p>
+              Our fantastic exhibition, ‘The Sky Above Us’, explores the night
+              sky and what we can see and know about the universe around us.
+              We’ll locate the various constellations and galaxies that can be
+              seen and learn a bit about the early navigators who used the stars
+              to travel by. Follow the journey of our solar exploration: from
+              early Arab traders, to Galileo’s telescope, to the latest
+              exploration of the planets in our solar system.
+            </p>
+          </div>
+        </div>
+        <div
+          class="exhibit-content bg-clr-dark flex flex-col flex-row-l align-center relative"
+        >
+          <div class="exh-img relative">
+            <img src="./assets/figma-imgs/ex-evolution.png" alt="Biology" />
+            <h2 class="absolute biology-medicine">Evolution</h2>
+          </div>
+          <div class="exh-text t-align-center t-align-left-l">
+            <h5>Discover the origins of life on this planet.</h5>
+            <p>
+              For centuries, philosophers and scientists have wrestled with the
+              question of our origins. Where do we come from and how did we get
+              here? Since Darwin proposed his theory of evolution we have had a
+              framework for exploring and understanding our place in this world.
+              Discover the origins of life on this planet and how the species we
+              know today have evolved our time. You can also take some time to
+              meet a few of the creatures who didn’t survive, including our
+              Woolly Mammoth, the Dodos, and a number of dinosaurs too.
+            </p>
+          </div>
+        </div>
+        <div
+          class="exhibit-content flex flex-col flex-row-l align-center relative"
+        >
+          <div class="exh-img relative">
+            <img src="./assets/figma-imgs/ex-biology.png" alt="Biology" />
+            <h2 class="absolute biology-medicine">Biology</h2>
+          </div>
+          <div class="exh-text clr-black t-align-center t-align-left-l">
+            <h5>From micro-organisms to the human body.</h5>
+            <p>
+              Major breakthroughs in biology are offering us unique insights
+              into the great wonders of the tiny world. For many people their
+              life expectancy is much longer and their quality of life much
+              improved, thanks to the growth of our understanding of medicine.
+              Over a series of exhibits we explore the history of medicine and
+              take a look at some major breakthroughs including the discovery of
+              penicillin and the first heart transplant.
+            </p>
+          </div>
+        </div>
+        <div
+          class="exhibit-content bg-clr-dark flex flex-col flex-row-l align-center relative"
+        >
+          <div class="exh-img relative">
+            <img src="./assets/figma-imgs/ex-robotics.png" alt="Biology" />
+            <h2 class="absolute biology-medicine">Robotics</h2>
+          </div>
+          <div class="exh-text t-align-center t-align-left-l">
+            <h5>Embark the future with future technology.</h5>
+            <p>
+              The information revolution is here and robotics and artificial
+              intelligence are the science of the future. From useful home
+              applications of AI to industrial uses of robotics, the future is
+              here. You can even say hello and shake the hand of Rob the Robot.
+            </p>
+          </div>
+        </div>
+        <div
+          class="exhibit-content flex flex-col flex-row-l align-center relative"
+        >
+          <div class="exh-img relative">
+            <img src="./assets/figma-imgs/ex-ecology.png" alt="Biology" />
+            <h2 class="absolute biology-medicine">Ecology</h2>
+          </div>
+          <div class="exh-text clr-black t-align-center t-align-left-l">
+            <h5>Learn more about our ecosystem!</h5>
+            <p>
+              As we learn more and more of the impact humans are having on the
+              planet, the more important it becomes that scientists explore how
+              to create a sustainable future not just for humans but for the
+              whole planet. In our ecology section of the museum, we unpack the
+              dangers we currently face including global warming, extinction of
+              species, and pollution. But we also focus on the positive ways we
+              can all contribute to a brighter future.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-clr-dark">
+      <div class="footer-contents">
+        <div>
+          <div>
+            <a href="index.html"
+              ><img
+                class="footer-logo bg-clr-white"
+                src="/assets/figma-imgs/logo.png"
+                alt="logo"
+            /></a>
+          </div>
+          <div>
+            <a href="visit.html"
+              ><h6>Hours</h6>
+              <p>Mon: Closed</p>
+              <p>Tues: 10:00 – 16:00</p>
+              <p>Wednes: 10:00 – 16:00</p>
+              <p>Thurs: 10:00 – 16:00</p>
+              <p>Fri: 10:00 – 19:00</p>
+              <p>Satur: 9:00 – 16:00</p>
+              <p>Sun: 9:00 – 13:00</p></a
+            >
+          </div>
+        </div>
+        <div>
+          <a href="visit.html"
+            ><div>
+              <h6>Address</h6>
+              <p>Maridalsveien 1000 Oslo</p>
+            </div></a
+          >
+          <a href="visit.html"
+            ><div>
+              <h6>Contact</h6>
+              <p>Phone: +47 123 12 312</p>
+              <p>Email: communityscience@gmail.com</p>
+            </div>
+          </a>
+          <a href="involve.html"
+            ><div>
+              <h6>Get Involved</h6>
+              <p>Donations</p>
+              <p>Volunteer program</p>
+              <p>Internship program</p>
+            </div></a
+          >
+        </div>
+        <div class="">
+          <div>
+            <h6>Get our latest news and updates</h6>
+            <input class="email" type="email" placeholder="Email" />
+            <a class="sign-up" href="#">Sign Up</a>
+          </div>
+          <div class="social-media">
+            <h6>Follow us through:</h6>
+            <ul class="icons flex">
+              <li>
+                <img src="./assets/icons/fb'.png" alt="Facebook" />
+              </li>
+              <li><img src="./assets/icons/ins.png" alt="Instagram" /></li>
+              <li><img src="./assets/icons/x.png" alt="twitter" /></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <article class="terms t-align-center">
+      <a class="bg-clr-red-100" href="terms.html"
+        >Privacy Policy & Terms and conditions</a
+      >
+    </article>
+  </body>
+  <script>
+    const dialogElement =
+      document.querySelector(
+        "#dialogNav"
+      ); /* wrote as variable to have less typing */
+    document.querySelector("#openNav").addEventListener("click", () => {
+      dialogElement.showModal();
+    });
+    dialogElement.addEventListener("click", () => {
+      dialogElement.close();
+    });
+    dialogElement.addEventListener("scroll", () => {
+      dialogElement.close();
+    });
+  </script>
+</html>
