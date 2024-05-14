@@ -24,7 +24,7 @@
 .relative {position: relative;}
 .absolute {position: absolute;}
 .fixed {position: fixed;}
-.sticky {position: fixed;}
+.sticky {position: fixed;} 
 
 /* text align */
 .t-align-right {text-align: right;}

@@ -1,0 +1,85 @@
+.visit-headline {
+    height: 50px;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+
+.about-container {
+    margin-top: 3rem;
+}
+.come-join {
+    p {
+
+        margin: .5rem 2rem;
+        font-size: 16px;
+        color: black;
+    }
+    
+}
+
+.visit-kid {
+    background: url(../assets/figma-imgs/kid-visit.png) no-repeat
+      center;
+    background-size: cover;
+    margin: 2rem auto;
+    height: 170px;
+    margin-bottom: 0;
+}
+
+.visit-info {
+    margin: auto 2rem;
+    h3 {
+        font-size: 1.5rem;
+    }
+    .admission {
+        p {
+            max-width: 550px;
+        }
+    }
+    .hrs {
+        p {
+            margin: 0.5rem 0;
+        }
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 979px) {
+    .visit-kid { 
+        height: 200px;
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width: 980px) {
+
+
+    .about-container {
+        margin-top: 3rem;
+        img {
+            max-width: 400px;
+        }
+    }
+    .visit-kid { 
+        height: 200px;
+    }
+
+    .visit-info {
+        margin: auto 2rem;
+        h3 {
+            font-size: 2rem;
+        }
+        .admission {
+            p {
+                max-width: 500px;
+            }
+        }
+        .hrs {
+            p {
+                margin: 0.5rem 0;
+            }
+        }
+    }
+}

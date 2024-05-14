@@ -119,6 +119,7 @@
 
     .exhibit-content {
       gap: 2rem;
+      justify-content: space-around;
       .exh-img {
        margin: 1rem;
       }
