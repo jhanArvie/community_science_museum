@@ -1,0 +1,239 @@
+.contact-headline {
+    text-align: center;
+    h1 {
+        margin: 0;
+        background-color: #FF3000;;
+        font-size: 1.5rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        letter-spacing: .2rem;
+    }
+}
+
+.name-input, .email-input{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+}
+
+.contact-form label {
+    font-size: 1.25rem;
+    color: #000;
+    font-weight: 500;
+}
+.contact-form input{
+    display: block;
+    margin: .5rem auto;
+    min-width: 300px;
+    height: 1.5rem;
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+.contact-form input::placeholder {
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.name-input input {
+    margin: 1.5rem auto;
+}
+
+.subject-message {
+    max-width: 300px;
+    margin: auto auto;
+}
+
+.message-container {
+    margin-top: 1rem;
+
+    textarea {
+        margin-top: .5rem;
+        height: 175px;
+        width: 300px;
+        border: solid 2px #000;
+        border-radius: 5px;
+    }
+}
+
+.message-container textarea::placeholder {
+    padding-left: .5rem;
+    font-size: 1rem;
+
+}
+
+#subject {
+    font-size: 1.25rem;
+    border: solid 2px #000;
+    border-radius: 5px;
+    margin-top: .5rem;
+
+}
+
+.contact-below >* {
+    padding: 0 1rem;
+    margin: 2rem auto;
+    color: #000;
+   
+
+
+    ul {
+        list-style-type:circle;
+      }
+}
+
+.contact-below h2 {
+    font-size: 2rem;
+    letter-spacing: .2px;
+}
+
+
+.submit-button {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: #2D2727;
+    padding: .5rem 7.25rem;
+    display: block;
+    margin: 2rem auto;
+    cursor: pointer;
+}
+
+#thankYou {
+    background-color: #FBC50A;
+    text-align: center;
+    border: none;
+    h3 {
+        color: #fff;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 979px) { 
+
+    .contact-form { 
+          .name-input input {
+            margin: 1.5rem auto;
+        }
+    }
+    .name-input, .email-input{
+        max-width: 400px;
+    }
+    
+    .contact-form input{
+        display: block;
+        margin: .5rem auto;
+        min-width: 400px;
+        height: 1.5rem;
+        border: solid 2px #000;
+        border-radius: 5px;
+    }
+
+
+    .form-group {
+        max-width: 400px;
+        margin: auto auto;
+    }
+
+    #subject{
+        font-size: 1.25rem;
+        border: solid 2px #000;
+        border-radius: 5px;
+        margin-top: .5rem;
+    
+    }
+    .subject-message {
+        max-width: 400px;
+        margin: auto auto;
+    }
+    
+    .message-container {
+        margin-top: 1rem;
+    
+        textarea {
+            margin-top: .5rem;
+            height: 175px;
+            width: 400px;
+            border: solid 2px #000;
+            border-radius: 5px;
+        }
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 980px) {
+
+    .contact-headline {
+        h1 {
+            max-width: 50%;
+            font-size: 2rem;
+            letter-spacing: .2rem;
+        }
+    }
+    
+    .contact-form { 
+        margin-top: 2rem;
+        .name-input input {
+          margin: 1.5rem auto;
+      }
+  }
+  .name-input, .email-input{
+      max-width: 450px;
+  }
+  
+  .contact-form label {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 500;
+}
+  .contact-form input{
+      display: block;
+      margin: .5rem auto;
+      min-width: 450px;
+      height: 1.5rem;
+      border: solid 2px #000;
+      border-radius: 5px;
+  }
+
+
+  .form-group {
+      max-width: 450px;
+      margin: auto auto;
+  }
+
+  #subject{
+      font-size: 1.25rem;
+      border: solid 2px #000;
+      border-radius: 5px;
+      margin-top: .5rem;
+  
+  }
+  .subject-message {
+    padding-top: 1rem;
+      max-width: 450px;
+      margin: auto auto;
+  }
+  
+  .message-container {
+      margin-top: 1rem;
+  
+      textarea {
+          
+          height: 175px;
+          width: 450px;
+          
+      }
+  }
+
+  .contact-below >* {
+    padding: 0 5rem;
+}  
+
+    .contact-below p, ul{
+        font-size: 1.5rem;
+    }
+}

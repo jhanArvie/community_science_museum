@@ -9,6 +9,7 @@
 .align-start {align-items: start;}
 .space-around {justify-content: space-around;}
 .space-between {justify-content: space-between;}
+.wrap {flex-wrap: wrap;}
 
 /* gap */
 .gap-05 {gap: 0.5rem;}
