@@ -1,0 +1,142 @@
+.involve-hero {
+    background: url(../assets/figma-imgs/involve-hero.png) no-repeat
+      center;
+    background-size: cover;
+    margin: 0;
+    height: 350px;
+
+    h1 {
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 2rem;
+        font-weight: 600;
+        text-shadow: 0px 2.49px 7.469px #000;
+        letter-spacing: 2.5px;
+    }
+    p{
+        padding: .5rem
+        ;
+        margin: 0 2rem;
+        max-width: 500px;
+        font-size: 1rem;
+        background: rgba(0, 0, 0, 0.80);
+    }
+
+    .sign-up-btn {
+        display: block;
+        position: absolute;
+        right: 25vw;
+        bottom: 10%;
+        font-size: 1.25;
+        margin: auto auto;
+        padding: .5rem 3rem;
+        background-color: #16A2E1;
+    }
+  }
+
+  .involve-headline {
+    height: 50px;
+    font-size: 1.25rem;
+    letter-spacing: 1.5px;
+}
+
+.support-section {
+    
+    h3 {
+        margin: 1rem 0 0 0;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    p {
+        margin: 0;
+        padding: 1rem;
+    }
+}
+
+  @media only screen and (min-width: 480px) and (max-width: 979px) { 
+
+    .involve-hero {
+        height: 350px;
+    
+        h1 {
+            font-size: 3rem;
+            letter-spacing: 2.5px;
+        }
+    
+        .sign-up-btn {
+            right: 10vw;
+            bottom: 10%;
+            font-size: 1.5rem;
+        }
+      }
+
+
+      .support-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            max-width: 650px;
+            margin: 1rem 0 0 0;
+            padding: 1rem 2rem 0 2rem ;
+            font-size: 1.5rem;
+        }
+        p {
+            max-width: 650px;
+            margin: 0;
+            padding: 2rem;
+        }
+    }
+
+  }
+
+
+
+  @media only screen and (min-width: 980px) { 
+
+    .involve-hero {
+        height: 400px;
+    
+        h1 {
+            padding-left: 5rem;
+            font-size: 4rem;
+        }
+        
+        p{
+            font-size: 1.25rem;
+            margin-left: 5rem;
+        }
+        .sign-up-btn {
+            right: 10vw;
+            bottom: 10%;
+            letter-spacing: 1.5px;
+            font-size: 1.5rem;
+        }
+      }
+
+      .involve-headline {
+        height: 60px;
+        font-size: 2rem;
+        letter-spacing: 1.5px;
+    }
+
+      .support-section {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        h3 {
+            max-width: 650px;
+            margin: 1rem 0 0 0;
+            padding: 1rem 2rem 0 2rem ;
+            font-size: 2rem;
+        }
+        p {
+            letter-spacing: 1px;
+            max-width: 650px;
+            margin: 0;
+            padding: 2rem;
+        }
+    }
+
+  }
