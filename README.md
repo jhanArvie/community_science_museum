@@ -16,7 +16,6 @@ The website showcases a fictional community science museum, featuring:
 
 - HTML5
 - CSS3
-- JavaScript 
 
 ## Features
 
