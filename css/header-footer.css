@@ -26,10 +26,14 @@ header {
 }
 
 .nav {
-    width: 230px;
+    width: 180px;
+    padding: 0 20px;
     height: 46px;
     z-index: 100;
     pointer-events: all;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 
@@ -41,34 +45,73 @@ header {
 .burger-con {
     background-color: transparent;
     border: none;
-    
- .burger{
-    width: 60%;
- }
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    cursor: pointer;
 }
 
-.search-con {
-    margin-left: 10px;
-}
-.search-icon {
+
+
+.burger {
     width: 25px;
+    height: auto;
 }
 
-.search {
-    width: 72px;
-    color: #fff;
-    background-color: transparent;
-    border: none; /* Remove any existing borders */
-    border-bottom: 2px solid #fff; /* Add a border only to the bottom */
-    outline: none; /* Remove the default focus outline */
+.nav-menu {
+    position: absolute;
+    top: 46px;
+    right: -180px; /* Start off-screen to the right */
+    width: 180px;
+    height: auto;
+    transition: right 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.nav-menu.show-nav {
+    right: 0; /* Slide in to position */
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav-container {
+    padding: 1rem;
+}
+
+.nav-list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    
+    text-align: right;
+}
+
+.nav-list a {
+    display: block;
+    padding: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.nav-list a.active {
+    color: #FBC50A;
+    font-weight: 700;
+}
+
+.nav-list a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
 
 
 #dialogNav {
     max-width: 1600px;
-    width: 280px;
+    width: 50px;
     margin-right: 0 ;
     margin-top: 70px;
     border: none;
@@ -154,8 +197,18 @@ footer {
     }
 
     .nav {
-        width: 300px;
+        width: 250px;
+        padding: 0 10px;
         height: 50px;
+        z-index: 100;
+        pointer-events: all;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .nav-menu {
+        width: 250px;
     }
 
     .logo {
@@ -186,10 +239,20 @@ footer {
             height: 115px;
         }
         .nav {
-            width: 500px;
+            width: 300px;
+            padding: 0 10px;
             height: 60px;
-           
+            z-index: 100;
+            pointer-events: all;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
+
+        .nav-menu {
+            width: 300px;
+        }
+
         .logo {
             width: 60%;
             margin-left: 25px;
