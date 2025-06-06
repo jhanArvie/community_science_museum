@@ -23,6 +23,11 @@ header {
     width: 100%;
     z-index: 1000;
     pointer-events: none;
+    transition: transform 0.3s ease;
+}
+
+.nav-hidden {
+    transform: translateY(-150%);
 }
 
 .nav {
