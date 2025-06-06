@@ -351,18 +351,5 @@
     </article>
   </body>
 
-  <script>
-    const dialogElement =
-      document.querySelector(
-        "#navMenu"
-      ); /* wrote as variable to have less typing */
-    document.querySelector("#toggleNav").addEventListener("click", () => {
-      dialogElement.classList.toggle("show-nav");
-    });
-    dialogElement.addEventListener("click", (e) => {
-      if (e.target === dialogElement) {
-        dialogElement.classList.remove("show-nav");
-      }
-    });
-  </script>
+  <script src="./js/nav.js"></script>
 </html>
